@@ -40,7 +40,7 @@
 
 
 // descending order
-var number1 = [24, 53, 78, 91, 12, 152, 125];
+var number1 = ["24", 53, 78, 91, 12, 152, 125];
 for (var i = 0; i < number1.length; i++) {
 for (var j = 0; j < number1.length; j++) {
     if (number1[j]< number1[j+1]) {
