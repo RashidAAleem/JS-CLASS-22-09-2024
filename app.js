@@ -207,3 +207,45 @@
 
 
 // dated : 29-09-2024 Chap 23
+
+// task 1 . string to capitalize using prompt
+// every letter capitalize
+
+// var str = prompt("Enter your Sentence")
+// var word = str.split(" ");
+// // console.log(word);
+// var arry = []
+// // document.write ("Original: " + str + "<br>")
+
+// // var first= str.slice(0,1).toUpperCase() + str.slice(1)
+// // document.write(first)
+
+// for (var i = 0; i < word.length; i++) {
+//    var result =(word[i][0].toUpperCase()+word[i].slice(1));
+//    arry.push(result);
+    
+// }
+
+// document.write(arry.join(" "));
+
+// index of
+// var word = prompt("Please enter ")
+// document.write( word.indexOf("a"))
+// document.write( word.lastIndexOf("a"))
+
+// task 2 . in a paragraph find smit using slice
+//  var text = "hello i am saylani mass it training student"
+//  var word = text.slice(11, 18 )
+// document.write(word)
+
+
+// task 3 . in a paragraph find smit using indexof
+
+//  var text = "hello i am saylani mass it training student"
+//  var word = text.indexOf("saylani" )
+// document.write(word)
+
+// task 4 . in a paragraph find saylani using replace
+var text = "hello i am saylani mass it training student"
+var word = text.replace("saylani", "Saylani" )
+document.write(word)
