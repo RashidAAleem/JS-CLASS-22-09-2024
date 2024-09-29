@@ -258,6 +258,6 @@
 // }
 
 // task 4 . in a paragraph find saylani using replace
-var text = "hello i am saylani mass it training student"
-var word = text.replaceAll("saylani", "SAYLANI" )
-document.write(word)
+// var text = "hello i am saylani mass it training student"
+// var word = text.replaceAll("saylani", "SAYLANI" )
+// document.write(word)
