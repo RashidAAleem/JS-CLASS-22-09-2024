@@ -235,17 +235,29 @@
 
 // task 2 . in a paragraph find smit using slice
 //  var text = "hello i am saylani mass it training student"
+//  for (let i = 0; i < text.length; i++) {
+//     if (text.slice(i, i+7) ==="saylani") {
+//         document.write("saylani found")
+//         break;
+//     }
+    
+//  }
 //  var word = text.slice(11, 18 )
 // document.write(word)
 
 
 // task 3 . in a paragraph find smit using indexof
 
-//  var text = "hello i am saylani mass it training student"
-//  var word = text.indexOf("saylani" )
-// document.write(word)
+// var text = "hello i am saylani mass it training student";
+// var firstChar = text.indexOf("saylani");
+
+// if (firstChar !== -1) {
+//     document.write("Found Saylani");
+// } else {
+//     document.write("Saylani not found");
+// }
 
 // task 4 . in a paragraph find saylani using replace
 var text = "hello i am saylani mass it training student"
-var word = text.replace("saylani", "Saylani" )
+var word = text.replaceAll("saylani", "SAYLANI" )
 document.write(word)
