@@ -178,28 +178,32 @@
 // }
 
 
-// Prompt for input text
-var text = prompt("Please enter your words:");
-var result = ""; 
-var capitalizeNext = true; 
+// // Prompt for input text
+// var text = prompt("Please enter your words:");
+// var result = ""; 
+// var capitalizeNext = true; 
 
-for (let i = 0; i < text.length; i++) {
-    var currentChar = text[i];
+// for (let i = 0; i < text.length; i++) {
+//     var currentChar = text[i];
 
     
-    if (currentChar === " ") {
-        result += currentChar; // Add the space to the result
-        capitalizeNext = true; // Set flag to capitalize next character
-    } else {
-        // Capitalize if the flag is set
-        if (capitalizeNext) {
-            result += currentChar.toUpperCase();
-            capitalizeNext = false; // Reset the flag after capitalizing
-        } else {
-            result += currentChar.toLowerCase(); // Otherwise, add the lowercase character
-        }
-    }
-}
+//     if (currentChar === " ") {
+//         result += currentChar; // Add the space to the result
+//         capitalizeNext = true; // Set flag to capitalize next character
+//     } else {
+//         // Capitalize if the flag is set
+//         if (capitalizeNext) {
+//             result += currentChar.toUpperCase();
+//             capitalizeNext = false; // Reset the flag after capitalizing
+//         } else {
+//             result += currentChar.toLowerCase(); // Otherwise, add the lowercase character
+//         }
+//     }
+// }
 
-// Display the result
-document.write("Actual Text : "+ text +"<br>" +"Capitalized Text: " + result);
+// // Display the result
+// document.write("Actual Text : "+ text +"<br>" +"Capitalized Text: " + result);
+
+
+
+// dated : 29-09-2024 Chap 23
