@@ -331,3 +331,25 @@
 // }
 // calc();
 
+function updateClock() {
+    var now = new Date();
+    var hours = now.getHours();
+    var minutes = now.getMinutes();
+    var seconds = now.getSeconds();
+
+    // Pad single digits with leading zeros
+    hours = (hours < 10) ? "0" + hours : hours;
+    minutes = (minutes < 10) ? "0" + minutes : minutes;
+    seconds = (seconds < 10) ? "0" + seconds : seconds;
+
+    // Format the time string
+    var timeString = hours + ":" + minutes + ":" + seconds;
+
+    // Clear the document and write the new time
+    document.body.innerHTML = ""; // Clear previous content
+    document.write("<h1>" + timeString + "</h1>"); // Write the current time
+}
+
+// Update the clock every second
+setInterval(updateClock, 1000);
+updateClock(); // Initial call to display the clock immediately
