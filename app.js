@@ -261,3 +261,73 @@
 // var text = "hello i am saylani mass it training student"
 // var word = text.replaceAll("saylani", "SAYLANI" )
 // document.write(word)
+
+
+// dated 13-10-2024
+
+
+// FUNCTION
+
+
+//q1
+// function tellTime() {
+//     var now = new Date();
+//     var theHr = now.getHours();
+//     var theMin = now.getMinutes();
+//     // document.write("time:" + theHr + ":" +theMin)
+// document.write(now)
+    
+// }
+
+// tellTime();
+
+//q2
+// function greet() {
+//     var firstName = prompt("Enter First Name")
+//     var lastName = prompt("Enter last Name")
+//     var greetings = "Hello"
+//     document.write(greetings +" " + firstName +" "+ lastName) 
+// }
+
+// greet()
+
+//q3
+
+// function additionNum() {
+//     var firstNum = +prompt("Please Enter first Number")
+//     var secNum = +prompt("Please Enter second Number")
+//     var sumNum = firstNum + secNum
+//     alert("Here is your answer "+sumNum)
+// }
+
+// additionNum()
+
+
+//q4
+
+// function calc() {
+//     var firstNum = +prompt("Please Enter first Number");
+//     var secNum = +prompt("Please Enter second Number");
+//     var operator = prompt("Please Enter + OR - OR * OR /");
+//     var result;
+
+//     if (operator === '+') {
+//         result = firstNum + secNum;
+//     } else if (operator === '-') {
+//         result = firstNum - secNum;
+//     } else if (operator === '*') {
+//         result = firstNum * secNum;
+//     } else if (operator === '/') {
+//         if (secNum !== 0) {
+//             result = firstNum / secNum;
+//         } else {
+//             result = "Error: Division by zero";
+//         }
+//     } else {
+//         result = "Error: Invalid operator";
+//     }
+
+//     alert("Here is your answer: " + result);
+// }
+// calc();
+
