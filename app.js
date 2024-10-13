@@ -331,25 +331,55 @@
 // }
 // calc();
 
-function updateClock() {
-    var now = new Date();
-    var hours = now.getHours();
-    var minutes = now.getMinutes();
-    var seconds = now.getSeconds();
+// function updateClock() {
+//     var now = new Date();
+//     var hours = now.getHours();
+//     var minutes = now.getMinutes();
+//     var seconds = now.getSeconds();
+    
 
-    // Pad single digits with leading zeros
-    hours = (hours < 10) ? "0" + hours : hours;
-    minutes = (minutes < 10) ? "0" + minutes : minutes;
-    seconds = (seconds < 10) ? "0" + seconds : seconds;
+//     // Pad single digits with leading zeros
+//     hours = (hours < 10) ? "0" + hours : hours;
+//     minutes = (minutes < 10) ? "0" + minutes : minutes;
+//     seconds = (seconds < 10) ? "0" + seconds : seconds;
 
-    // Format the time string
-    var timeString = hours + ":" + minutes + ":" + seconds;
+//     // Format the time string
+//     var timeString = hours + ":" + minutes + ":" + seconds;
 
-    // Clear the document and write the new time
-    document.body.innerHTML = ""; // Clear previous content
-    document.write("<h1>" + timeString + "</h1>"); // Write the current time
-}
+//     // Clear the document and write the new time
+//     document.body.innerHTML = ""; // Clear previous content
+//     document.write("<h1>" + timeString + "</h1>"); // Write the current time
+// }
 
-// Update the clock every second
-setInterval(updateClock, 1000);
-updateClock(); // Initial call to display the clock immediately
+// // Update the clock every second
+// setInterval(updateClock, 1000);
+// updateClock(); // Initial call to display the clock immediately
+
+// function updateClock() {
+//     var now = new Date();
+//     var hours = now.getHours();
+//     var minutes = now.getMinutes();
+//     var seconds = now.getSeconds();
+    
+//     // Determine AM or PM
+//     var period = hours >= 12 ? "PM" : "AM";
+    
+//     // Convert to 12-hour format
+//     hours = hours % 12;
+//     hours = hours ? hours : 12; // the hour '0' should be '12'
+
+//     // Pad single digits with leading zeros
+//     minutes = (minutes < 10) ? "0" + minutes : minutes;
+//     seconds = (seconds < 10) ? "0" + seconds : seconds;
+
+//     // Format the time string
+//     var timeString = hours + ":" + minutes + ":" + seconds + " " + period;
+
+//     // Clear the document and write the new time
+//     document.body.innerHTML = ""; // Clear previous content
+//     document.write("<h1>" + timeString + "</h1>"); // Write the current time
+// }
+
+// // Update the clock every second
+// setInterval(updateClock, 1000);
+// updateClock(); // Initial call to display the clock immediately
