@@ -383,3 +383,121 @@
 // // Update the clock every second
 // setInterval(updateClock, 1000);
 // updateClock(); // Initial call to display the clock immediately
+
+
+//18-10-2024 class
+
+
+
+// function telltime() {
+//     var now = new Date();
+//     var theHr = now.getHours();
+//     var theMin = now.getMinutes();
+//     // document.body.innerHTML = "";
+//     document.write("time: " + theHr +" : "+ theMin + "<br>");
+    
+// }
+
+// telltime();
+// telltime();
+// telltime();
+// telltime();
+// telltime();
+// telltime();
+
+//passing data to function
+// in the form of arguement and can be pass on as parameters
+
+// function hello(greet) {   // parameters
+//     alert(greet)
+    
+// }
+
+// hello("Hi There"); // arguments
+
+
+// multiple arguments can be passed on parameters and to display without parameter we use arguments method to be 
+
+
+
+// function additionNum(a,b) {
+
+//     console.log(a+b)
+    
+// }
+
+
+// additionNum(2,3)
+// additionNum(5,8)
+
+// function subtrationNum(c,d) {
+
+//     console.log(c-d)
+    
+// }
+
+
+// subtrationNum(3,2)
+// subtrationNum(10,2)
+
+// function multNum(c,d) {
+
+//     console.log(c*d)
+    
+// }
+
+
+// multNum(2,3)
+// multNum(4,3)
+
+// function divNum(c,d) {
+
+//     console.log(c/d)
+    
+// }
+
+
+// divNum(2,3)
+// divNum(5,3)
+
+
+
+// returning value to the function
+
+// function abc() {
+//     var xyz = "world"
+//     return xyz;
+// }
+
+// var a = abc()
+// document.write(abc())
+
+
+
+//switch case
+// var dayOfWk = "Sun"
+//  if (dayOfWk ==="Sat" || dayOfWk === "Sun") {
+//      alert("Whoopee!");
+//      }
+//      else if (dayOfWk === "Fri") {
+//      alert("TGIF!");
+//      }
+//      else {
+//      alert("Shoot me now!");
+//      }
+
+
+    //   switch(dayOfWk) {
+    //      case "Sat" :
+    //      alert("Whoopee");
+    //      break;
+    //      case "Sun" :
+    //      alert("Whoopee");
+    //      break;
+    //      case "Fri" :
+    //      alert("TGIF!");
+    //      break;
+    //      default :
+    //      alert("Shoot me now!");
+    //      }
+        
